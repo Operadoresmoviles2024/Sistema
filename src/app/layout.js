@@ -16,10 +16,10 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#000000" />
         <meta name="msapplication-navbutton-color" content="#000000" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#000000" />
-        <meta name="description" content="Informacion de institutos publicoa y privados." />
-        <meta name="keywords" content="Seduca Informa" />
-        <meta name="author" content="Logistics Gear" />
-        <title>Seduca Informa</title>
+        <meta name="description" content="Informacion de Operadores Moviles" />
+        <meta name="keywords" content="Operadores Moviles" />
+        <meta name="author" content="ANONYMOUS" />
+        <title>Operadores Moviles</title>
       </head>
       <body className={inter.className}   >
         <UserProvider>
