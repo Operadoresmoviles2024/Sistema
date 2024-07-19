@@ -1,0 +1,26 @@
+{
+    "name": "Logistics Gear",
+    "short_name": "Logistics Gear",
+    "icons": [
+      {
+        "src": "/lg.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "lg.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#2A52BE",
+    "background_color": "#2A52BE",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
+
+
+
+
+ 

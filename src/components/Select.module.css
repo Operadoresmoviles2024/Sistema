@@ -1,0 +1,78 @@
+.select {
+  position: relative;
+  margin-top: 0px;
+  padding: 10px;
+  border: 1px solid #6bb99c;
+  width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 15px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+
+.select>ul {
+  position: absolute;
+  top: 14px;
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+  width: 101%;
+  background: var(--main-bg-color);
+  border: 2px solid #6bb99c;
+  border-top: none;
+
+  color: var(--color-white)
+}
+
+.select>ul>li {
+  padding: 5px;
+  list-style: none;
+  color: var(--color-white);
+}
+
+.select>ul>li:hover {
+  background: rgb(212, 212, 212);
+  color: black;
+  font-weight: 200;
+}
+
+
+.noSelect {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #6bb99c;
+  width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 15px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+.noSelect ul {
+  display: none;
+  list-style: none;
+}
+
+.noSelect span {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+
+  font-size: var(--font-large);
+  transform: rotate(90deg);
+  color: var(--link-color);
+}
+
+.select span {
+  position: absolute;
+  right: 13px;
+  top: 8px;
+
+  font-size: var(--font-large);
+  transform: rotate(-90deg);
+  color: var(--link-color);
+}

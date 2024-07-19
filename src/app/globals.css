@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-bg-color: #0064FA;
+  --font-small: 10px;
+  --font-normal: 12px;
+  --font-large: 16px;
+
+  --font-weight-ligth: 00;
+  --font-weight-medium: 300;
+  --font-weight-bold: 500;
+
+  --color-primary: #2A52BE;
+  --color-secondary: #5270E9;
+  --color-white: white;
+
+  --border-radious: 15px;
+  --link-color: #14EFA5;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+
+* {
+  box-sizing: border-box;
+  font-weight: 300;
+
+}
+
+input:focus {
+  outline: 1px solid #3e2a82;
+}
+
+/* 
+input[type='text'],
+input[type='number'],
+textarea {
+  font-size: 16px;
+} */
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+
+  /* Designing for scroll-bar */
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    z-index: 100000000000000000000000;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    z-index: 100000000000000000000000;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #a8a8a8;
+    border-radius: 5px;
+    z-index: 100000000000000000000000;
+}
+}
+
+
+
+
