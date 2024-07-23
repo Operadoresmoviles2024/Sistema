@@ -2,17 +2,8 @@
 'use client';
 import { useUser } from '@/context/Context'
 import { useEffect, useState } from 'react'
-import { onAuth, signInWithEmail, writeUserData, removeData } from '@/firebase/utils'
-import Image from 'next/image'
-import Link from 'next/link'
-import style from '@/app/page.module.css'
-import Button from '@/components/Button'
-import Loader from '@/components/Loader'
 import { useRouter } from 'next/navigation';
-import Modal from '@/components/Modal'
-import InputFlotante from '@/components/InputFlotante'
-import { generateUUID } from '@/utils/UIDgenerator'
-import dynamic from "next/dynamic";
+
 import React, { useRef } from 'react';
 import { DownloadTableExcel } from 'react-export-table-to-excel';
 
